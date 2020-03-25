@@ -112,6 +112,24 @@ body {
 #el3 > a {
 	margin-right: 10px;
 }
+.contact_hidden {
+	position: absolute;
+	position: fixed;
+	background: white;
+	width: 200px;
+	height: 110px;
+	top: 45px;
+	right: 10%;
+	font-size: 15px;
+	display: none;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0px;
+	border-radius: 3px;
+	background: #e0e0e0;
+	opacity: 0.8;
+	z-index: 10000;
+}
 
 /*Section 1*/
 .section1 {
@@ -330,6 +348,7 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	position: relative;
 }
 .footer_text1 {
 	width: 200px;
@@ -356,6 +375,11 @@ footer {
 #contactS {
 	font-size: 17px;
 	font-weight: 600;
+}
+#time {
+	color: #d7dfe6;
+	font-size: 13px;
+	font-family: 'Open Sans';
 }
 
 /* Animate gradient */
